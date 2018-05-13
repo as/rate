@@ -33,7 +33,7 @@ type Limiter interface {
 	Close() error
 }
 
-// AllowSlice returns true if task may execute for 1s at time.Now()
+// Allow returns true if task may execute for 1s at time.Now()
 func Allow(l Limiter, task string) bool {
 	return l.Schedule(task, time.Second) <= 0
 }
