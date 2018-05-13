@@ -1,4 +1,4 @@
-# Rate
+# Rate 
 [![Go Report Card](https://goreportcard.com/badge/github.com/as/rate)](https://goreportcard.com/badge/github.com/as/rate)
 
 # Usage
