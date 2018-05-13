@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-const (
+var (
 	tickInterval    = time.Second * 3
 	preallocEntries = 64
 	maxSweep        = 10
