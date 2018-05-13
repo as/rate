@@ -1,4 +1,4 @@
-// Pakcage httprate is a helper package for rate-limiting http endpoints
+// Package httprate is a helper package for rate-limiting http endpoints
 package httprate
 
 import (
